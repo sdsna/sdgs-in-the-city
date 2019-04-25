@@ -37,4 +37,4 @@ collections:
       - { label: "Goal Number", name: "number", widget: "number", required: true }
       - { label: "Tagline", name: "tagline", widget: "string", required: true }
       - { label: "Icon", name: "icon", widget: "image", allow_multiple: false, required: true }
-      - { label: "Body", name: "body", widget: "markdown", buttons: { "bold", "italic", "link", "bulleted-list"} }
+      - { label: "Body", name: "body", widget: "markdown", buttons: [ "bold", "italic", "link", "bulleted-list"] }
