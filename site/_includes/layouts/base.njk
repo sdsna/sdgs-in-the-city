@@ -43,7 +43,7 @@
       <h2>Goals</h2>
       <hr>
       {% for goal in collections.goals %}
-      <h3>{{ goal.data.title }}</h3>
+        {% include "partials/goal.njk" %}
       {% endfor %}
 
     </main>

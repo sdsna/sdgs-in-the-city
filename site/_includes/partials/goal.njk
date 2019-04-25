@@ -1,0 +1,12 @@
+<div class="goal">
+  <header>
+    <h3>
+      <span>{{ goal.data.number }}</span>
+      {{ goal.data.title }}
+    </h3>
+    <h4>{{ goal.data.tagline }}</h4>
+  </header>
+  <div class="goal-actions">
+    {{ goal.data.content | safe }}
+  </div>
+</div>
