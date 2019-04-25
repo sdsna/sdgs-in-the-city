@@ -16,7 +16,9 @@
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="">
     {%- set css -%}
+      {% include "css/reset.css" %}
       {% include "css/base.css" %}
+      {% include "css/goals.css" %}
     {%- endset %}
     <style>
       {{ css | cssmin | safe }}
