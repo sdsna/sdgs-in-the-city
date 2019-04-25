@@ -27,7 +27,7 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough for Netlify CMS
   eleventyConfig.addPassthroughCopy("site/static/uploads");
-  eleventyConfig.addPassthroughCopy("site/static/admin");
+  eleventyConfig.addPassthroughCopy("site/admin");
 
   return {
     pathPrefix: "/",
