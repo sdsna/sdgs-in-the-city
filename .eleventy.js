@@ -7,7 +7,9 @@ module.exports = function(eleventyConfig) {
 
   // Config a collection for goals
   eleventyConfig.addCollection('goals', function(collection) {
-    return collection.getFilteredByGlob('site/goals/*.md');
+    return collection.getFilteredByGlob('site/goals/*.md').sort(function(a, b) {
+      return a.data.number - b.data.number;
+    });
   });
 
   // Config a collection for projects
