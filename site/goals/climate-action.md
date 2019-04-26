@@ -11,9 +11,20 @@ excerpt: >-
   accelerated action by countries as they implement their commitments to the
   Paris Agreement on Climate Change.
 icon: /static/uploads/theglobalgoals_icons_color_goal_13.svg
+actions: >-
+  * Talk to someone about how climate change affects you, your community and why
+  it worries you.
+
+  * Connect with a local climate advocacy group and lend your voice to their
+  cause.
+
+  * [Download NASA's Earth Now app to learn about climate
+  change.](https://www.nasa.gov/topics/earth/features/earth20120319.html)
+
+  * Visit an exhibition of the [NY Climate Change
+  Museum](https://www.nasa.gov/topics/earth/features/earth20120319.html).
+
+  * Eat more[ plant-based meals](https://impossiblefoods.com/locations/) and cut
+  back on meat.
 ---
-* Talk to someone about how climate change affects you, your community and why it worries you.
-* Connect with a local climate advocacy group and lend your voice to their cause.
-* [Download NASA's Earth Now app to learn about climate change.](https://www.nasa.gov/topics/earth/features/earth20120319.html)
-* Visit an exhibition of the [NY Climate Change Museum](https://www.nasa.gov/topics/earth/features/earth20120319.html).
-* Eat more[ plant-based meals](https://impossiblefoods.com/locations/) and cut back on meat.
+
