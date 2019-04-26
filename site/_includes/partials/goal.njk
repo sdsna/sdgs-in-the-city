@@ -9,9 +9,6 @@
     <p class="goal-excerpt">{{ goal.data.excerpt }}</p>
   </header>
   <div class="goal-actions">
-    {% for item in goal.data %}
-      {{ item }}
-    {% endfor %}
-    {{ goal.data }}
+    {{ goal.data.actions | markdown | safe }}
   </div>
 </div>

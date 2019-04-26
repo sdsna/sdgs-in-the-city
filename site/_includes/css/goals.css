@@ -94,5 +94,17 @@
 .goal-tagline {
   color: #fff;
 }
+.goal-actions {
+  margin: 2rem 0;
+}
+.goal-actions ul {
+  list-style: disc;
+  list-style-position: inside;
+  display: flex;
+  flex-flow: row wrap;
+}
+.goal-actions ul li {
+
+}
 
 /* Icons */

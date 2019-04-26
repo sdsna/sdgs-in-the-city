@@ -2,8 +2,17 @@
 const { DateTime } = require('luxon');
 const htmlmin = require("html-minifier");
 const CleanCSS = require("clean-css");
+const markdownIt = require('markdown-it');
 
 module.exports = function(eleventyConfig) {
+
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary('md', markdownIt(options));
 
   // Config a collection for goals
   eleventyConfig.addCollection('goals', function(collection) {
@@ -25,6 +34,12 @@ module.exports = function(eleventyConfig) {
   // Config for inline css + minification
   eleventyConfig.addFilter('cssmin', function(code) {
     return new CleanCSS({}).minify(code).styles;
+  });
+
+  // Add markdown filter for frontmatter
+  eleventyConfig.addFilter('markdown', (string) => {
+    var md = new markdownIt();
+    return md.render(String(string));
   });
 
   // Passthrough for Netlify CMS
