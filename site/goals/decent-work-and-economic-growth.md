@@ -3,7 +3,7 @@ title: Decent Work and Economic Growth
 number: 8
 tagline: >-
   Promote sustained, inclusive and sustainable economic growth, full and
-  productive employment and decent work for all
+  productive employment and decent work for all.
 excerpt: >-
   At least 75 million young people around the world, aged 15-24, are unemployed,
   out of school, and looking at a bleak future. This Goal, while calling for
