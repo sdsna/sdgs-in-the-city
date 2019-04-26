@@ -1,7 +1,7 @@
 ---
 title: Affordable and Clean Energy
 number: 7
-tagline: 'Ensure access to affordable, reliable, sustainable, and modern energy for all'
+tagline: 'Ensure access to affordable, reliable, sustainable, and modern energy for all.'
 excerpt: >-
   Globally, about 1.3 billion people live without access to electricity. Modern
   energy is also connected to access to water (Goal 6): you need energy to get
