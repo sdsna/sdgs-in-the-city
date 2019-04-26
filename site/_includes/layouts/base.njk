@@ -5,15 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }} | {{ site.title }}</title>
-    <meta name="description" content="{{ description }}">
+    <meta name="description" content="{{ site.description }}">
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ description }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="">
     {%- set css -%}
 
@@ -21,23 +21,35 @@
       {% include "css/goals.css" %}
 
     {%- endset %}
+    <link rel="stylesheet" href="https://use.typekit.net/bud8xru.css">
     <style>
       {{ css | cssmin | safe }}
     </style>
   </head>
   <body>
-    {% include "partials/header.njk" %}
 
     <main role="main" id="main">
-      {{ content | safe }}
-
-      <h2>Projects</h2>
-      <hr>
-      {% for project in collections.projects %}
-      <h3>{{ project.data.title }}</h3>
-      {% endfor %}
-
       <section id="goals">
+        <header class="goals-section-header">
+          <h2 class="screen-reader-text">The Sustainable Development Goals</h2>
+
+
+          <ul class="goal-navigation">
+            <li class="goal-nav-item">
+              <img src="/static/uploads/SDG_logo.png" alt="SDG Logo" class="sdg-logo">
+            </li>
+            {% for goal in collections.goals %}
+            <li class="goal-{{goal.data.number}} goal-nav-item">
+              <a href="#{{ goal.data.title | slug }}" title="Jump to Goal {{ goal.data.number}}. {{ goal.data.title }}" class="goal-nav-link">
+                <img src="{{ goal.data.icon }}" alt="Goal {{ goal.data.title}}">
+                <div class="goal-link-title">
+                  {{goal.data.number}}. {{ goal.data.title }}
+                </div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </header>
         {% for goal in collections.goals %}
           {% include "partials/goal.njk" %}
         {% endfor %}
