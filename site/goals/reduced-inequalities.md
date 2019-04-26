@@ -1,7 +1,7 @@
 ---
 title: Reduced Inequalities
 number: 10
-tagline: Reduce inequality within and among countries
+tagline: Reduce inequality within and among countries.
 excerpt: >-
   The world is astonishingly unequal: the richest 80 people have the same wealth
   as the bottom 3.5 billion. The Goal includes a range of measures, including
