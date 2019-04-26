@@ -87,6 +87,7 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  max-width: 900px;
 }
 .goal-icon {
   flex: 25%;
@@ -108,11 +109,16 @@
 }
 .goal-excerpt {
   color: #fff;
+  max-width: 900px;
 }
 .goal-actions {
   color: #fff;
   margin: 2rem 0;
   border-top: 4px solid #fff;
+  max-width: 900px;
+}
+.goal-actions h4 {
+  text-transform: uppercase;
 }
 .goal-actions a {
   color: #fff;
@@ -120,15 +126,14 @@
 .goal-actions ul {
   list-style: none;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
 }
 .goal-actions ul li {
-  margin-bottom: 10px;
-  width: calc(1/3*100% - (1 - 1/3)*10px);
+  margin-bottom: 15px;
+  width: calc(1/3*100% - (1 - 1/3)*20px);
   flex-grow: 0;
   padding: 1rem 1.5rem;
   border: 4px solid rgba(255,255,255,1);

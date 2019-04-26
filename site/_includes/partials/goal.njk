@@ -4,14 +4,13 @@
       <img src="{{ goal.data.icon }}" alt="{{ goal.data.title }}" >
     </div>
     <div class="goal-title">
-      <h3><span>{{ goal.data.number }}.</span> {{ goal.data.title }}</h3>
-      <h4 class="goal-tagline">{{ goal.data.tagline }}</h4>
+      <h3 id="{{ goal.data.title | slug }}"><span>{{ goal.data.number }}.</span> {{ goal.data.title }}</h3>
+      <div class="goal-tagline">{{ goal.data.tagline }}</div>
     </div>
   </header>
-
   <div class="goal-excerpt">{{ goal.data.excerpt }}</div>
   <div class="goal-actions">
-    <h4>Actions</h4>
+    <h4>Actions you can take:</h4>
     {{ goal.data.actions | markdown | safe }}
   </div>
 </div>
