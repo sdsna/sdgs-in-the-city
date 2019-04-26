@@ -1,7 +1,7 @@
 ---
 title: Responsible Consumption and Production
 number: 12
-tagline: Ensure sustainable consumption and production patterns
+tagline: Ensure sustainable consumption and production patterns.
 excerpt: >-
   The world’s nations (through the UN) have already agreed to a “10-year
   framework” to make the way we produce and consume goods more sustainable. This
