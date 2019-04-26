@@ -1,10 +1,13 @@
-<div class="goal bg-goal-{{ goal.data.number}}">
+<div class="goal-{{ goal.data.number}} goal">
   <header class="goal-header">
     <div class="goal-icon">
       <img src="{{ goal.data.icon }}" alt="{{ goal.data.title }}" >
     </div>
     <div class="goal-title">
-      <h3 id="{{ goal.data.title | slug }}"><span>{{ goal.data.number }}.</span> {{ goal.data.title }}</h3>
+      <h3 id="{{ goal.data.title | slug }}">
+        <span class="goal-number">{{ goal.data.number }}.</span>
+        {{ goal.data.title }}
+      </h3>
       <div class="goal-tagline">{{ goal.data.tagline }}</div>
     </div>
   </header>

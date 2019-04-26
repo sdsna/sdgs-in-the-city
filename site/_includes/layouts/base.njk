@@ -19,6 +19,7 @@
 
       {% include "css/base.css" %}
       {% include "css/goals.css" %}
+
     {%- endset %}
     <style>
       {{ css | cssmin | safe }}
@@ -36,9 +37,11 @@
       <h3>{{ project.data.title }}</h3>
       {% endfor %}
 
-      {% for goal in collections.goals %}
-        {% include "partials/goal.njk" %}
-      {% endfor %}
+      <section id="goals">
+        {% for goal in collections.goals %}
+          {% include "partials/goal.njk" %}
+        {% endfor %}
+      </section>
 
     </main>
 
