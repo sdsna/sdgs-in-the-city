@@ -9,7 +9,16 @@ excerpt: >-
   issues like transportation, disaster preparedness, and even the preservation
   of “the world’s cultural and natural heritage.”
 icon: /static/uploads/theglobalgoals_icons_color_goal_11.svg
+actions: >-
+  * [Discover your local community garden and consider
+  joining.](https://greenthumb.nycgovparks.org/gardensearch.php)
+
+  * Make a [disaster preparedness plan and
+  kit](https://www1.nyc.gov/site/em/ready/get-prepared.page) for your family and
+  pets. 
+
+  * Find a [local cultural heritage site or
+  museum](https://www.nyc-arts.org/collections/35/free-museum-days-or-pay-what-you-wish)
+  you have not visited before.
 ---
-* [Discover your local community garden and consider joining.](https://greenthumb.nycgovparks.org/gardensearch.php)
-* Make a [disaster preparedness plan and kit](https://www1.nyc.gov/site/em/ready/get-prepared.page) for your family and pets. 
-* Find a [local cultural heritage site or museum](https://www.nyc-arts.org/collections/35/free-museum-days-or-pay-what-you-wish) you have not visited before.
+
