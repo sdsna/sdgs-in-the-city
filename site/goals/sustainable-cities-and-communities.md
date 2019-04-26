@@ -1,7 +1,7 @@
 ---
 title: Sustainable Cities and Communities
 number: 11
-tagline: 'Make cities and human settlements inclusive, safe, resilient and sustainable'
+tagline: 'Make cities and human settlements inclusive, safe, resilient and sustainable.'
 excerpt: >-
   More than half the world lives in cities, and by 2050, at least 66% will — and
   most of the growth in cities is happening in Africa and Asia. If those cities
