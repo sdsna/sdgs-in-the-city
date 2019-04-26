@@ -39,4 +39,5 @@ collections:
       - { label: "Tagline", name: "tagline", widget: "string", required: true }
       - { label: "Excerpt", name: "excerpt", widget: "text", required: true }
       - { label: "Icon", name: "icon", widget: "image", allow_multiple: false, required: true }
-      - { label: "Actions", name: "body", widget: "markdown", buttons: [ "bold", "italic", "link", "bulleted-list"] }
+      - { label: "Actions", name: "actions", widget: "markdown", buttons: [ "bold", "italic", "link", "bulleted-list"] }
+      - { label: "Body", name: "body", widget: "markdown", buttons: [ "bold", "italic", "link", "bulleted-list"] }

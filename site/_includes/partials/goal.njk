@@ -6,8 +6,12 @@
       {{ goal.data.title }}
     </h3>
     <h4 class="goal-tagline">{{ goal.data.tagline }}</h4>
+    <p class="goal-excerpt">{{ goal.data.excerpt }}</p>
   </header>
   <div class="goal-actions">
-    {{ content }}
+    {% for item in goal.data %}
+      {{ item }}
+    {% endfor %}
+    {{ goal.data }}
   </div>
 </div>
