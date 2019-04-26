@@ -1,7 +1,7 @@
 ---
 title: Clean Water and Sanitation
 number: 6
-tagline: Ensure access to water and sanitation for all
+tagline: Ensure access to water and sanitation for all.
 excerpt: >-
   Too many people still lack access to safely managed water supplies and
   sanitation facilities. Water scarcity, flooding and lack of proper wastewater
