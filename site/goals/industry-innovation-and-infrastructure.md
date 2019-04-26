@@ -3,7 +3,7 @@ title: 'Industry, Innovation, and Infrastructure'
 number: 9
 tagline: >-
   Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation
+  industrialization and foster innovation.
 excerpt: >-
   The world is becoming more industrialized, but often not in ways that are
   resilient and sustainable. This Goal aims for ensuring that everyone can enjoy
