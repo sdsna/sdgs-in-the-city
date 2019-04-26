@@ -9,7 +9,14 @@ excerpt: >-
   Importantly, it also covers the issue of migration, which should be “orderly,
   safe, regular and responsible.”
 icon: /static/uploads/theglobalgoals_icons_color_goal_10.svg
+actions: >-
+  * Insist on diverse representation in school projects, panels, and conferences
+  you attend.
+
+  * [Sign your office up for a bystander intervention
+  training.](https://www1.nyc.gov/site/cchr/law/stop-sexual-harassment-act.page)
+
+  * Learn a few phrases in another language common in your neighborhood, to
+  greet your neighbors.
 ---
-* Insist on diverse representation in school projects, panels, and conferences you attend.
-* [Sign your office up for a bystander intervention training.](https://www1.nyc.gov/site/cchr/law/stop-sexual-harassment-act.page)
-* Learn a few phrases in another language common in your neighborhood, to greet your neighbors.
+
