@@ -1,14 +1,17 @@
 <div class="goal bg-goal-{{ goal.data.number}}">
   <header class="goal-header">
-    <img src="{{ goal.data.icon }}" alt="{{ goal.data.title }}">
-    <h3 class="goal-title">
-      <span>{{ goal.data.number }}</span>
-      {{ goal.data.title }}
-    </h3>
-    <h4 class="goal-tagline">{{ goal.data.tagline }}</h4>
-    <p class="goal-excerpt">{{ goal.data.excerpt }}</p>
+    <div class="goal-icon">
+      <img src="{{ goal.data.icon }}" alt="{{ goal.data.title }}" >
+    </div>
+    <div class="goal-title">
+      <h3><span>{{ goal.data.number }}.</span> {{ goal.data.title }}</h3>
+      <h4 class="goal-tagline">{{ goal.data.tagline }}</h4>
+    </div>
   </header>
+
+  <div class="goal-excerpt">{{ goal.data.excerpt }}</div>
   <div class="goal-actions">
+    <h4>Actions</h4>
     {{ goal.data.actions | markdown | safe }}
   </div>
 </div>
