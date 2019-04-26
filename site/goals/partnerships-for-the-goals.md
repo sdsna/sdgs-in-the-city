@@ -3,7 +3,7 @@ title: Partnerships for the Goals
 number: 17
 tagline: >-
   Strengthen the means of implementation and revitalize the global partnership
-  for sustainable development
+  for sustainable development.
 excerpt: >-
   Goal 17 is about making sure all countries have what they need — funds,
   capacities, technologies, etc. — to achieve the rest of the SDGs. The Targets
