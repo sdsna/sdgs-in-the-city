@@ -9,8 +9,18 @@ excerpt: >-
   conversion to renewable sources, and it calls for dramatic improvements in
   efficienty everywhere.
 icon: /static/uploads/theglobalgoals_icons_color_goal_7.svg
+actions: >-
+  * Switch to energy efficient light bulbs, and remember to turn off lights and
+  electronics when not in use.
+
+  * [Switch to a renewable power provider for your
+  home.](https://cleanchoiceenergy.com/news/cleanchoice_energy_announcement/)
+
+  * Try a new form of low emissions transit, i.e.
+  [Citibikes](https://member.citibikenyc.com/map/),
+  [ferries](https://www.ferry.nyc/routes-and-schedules/),
+  [buses](http://web.mta.info/nyct/service/bus/bussch.htm), rollerblading. 
+
+  * Use a cold cycle when doing laundry and air dry your clothes.
 ---
-* Switch to energy efficient light bulbs, and remember to turn off lights and electronics when not in use.
-* [Switch to a renewable power provider for your home.](https://cleanchoiceenergy.com/news/cleanchoice_energy_announcement/)
-* Try a new form of low emissions transit, i.e. [Citibikes](https://member.citibikenyc.com/map/), [ferries](https://www.ferry.nyc/routes-and-schedules/), [buses](http://web.mta.info/nyct/service/bus/bussch.htm), rollerblading. 
-* Use a cold cycle when doing laundry and air dry your clothes.
+
