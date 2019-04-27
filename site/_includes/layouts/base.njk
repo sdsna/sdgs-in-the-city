@@ -10,14 +10,15 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="/static/uploads/sdg-cities-logo.svg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content="/static/uploads/sdg-cities-logo.svg">
     {%- set css -%}
 
       {% include "css/base.css" %}
+      {% include "css/projects.css" %}
       {% include "css/goals.css" %}
 
     {%- endset %}
@@ -28,7 +29,15 @@
   </head>
   <body>
 
+    {% include "partials/header.njk" %}
+
     <main role="main" id="main">
+      <section id="projects" class="projects">
+        {% for project in collections.projects %}
+        {% include "partials/project.njk" %}
+        {% endfor %}
+      </section>
+
       <section id="goals">
         <header class="goals-section-header">
           <h2 class="screen-reader-text">The Sustainable Development Goals</h2>

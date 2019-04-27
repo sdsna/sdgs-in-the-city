@@ -22,3 +22,119 @@ body {
   top: -9999px;
   left: -9999px;
 }
+.skip-link {
+  position: absolute;
+  left: 0;
+  top: -100px ;
+  z-index: 100;
+}
+.skip-link:focus {
+  color: #fff;
+  background: #1a3668;
+  outline: thin solid #fff;
+  top: 0;
+  padding: 1.25rem 2rem;
+}
+.masthead {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+.logo {
+  flex: 15%;
+  flex-grow: 0;
+}
+.logo img {
+  max-width: 100%;
+}
+#main-navigation {
+  flex: 80%;
+}
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav li {
+  flex: auto;
+  flex-grow: 0;
+  margin-right: 10px;
+}
+.nav li a {
+  background: #fff;
+  color: #1a3668;
+  display: block;
+  padding: 1rem 2rem;
+  box-shadow: 0 5px 10px 0 rgba(198,225,255,.65);
+  text-decoration: none;
+  transition: all ease-in-out .25s;
+  border-radius: 4px;
+}
+.nav li a:hover {
+  background: #1a3668;
+  color: #fff;
+}
+.colophon {
+  background-color: #1a3668;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2326519d' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  min-height: 30vh;
+  margin-top: 6rem;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
+.colophon a {
+  color: #1a3668
+}
+.about,
+.contact {
+  background: #fff;
+  padding: 2rem;
+}
+.about {
+  flex: 65%
+}
+.contact {
+  flex: 25%;
+}
+.contact-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-links li {
+  margin: .25rem auto;
+}
+
+@media only screen and (max-width: 776.25px) {
+  .logo,
+  #main-navigation {
+    flex: 100%;
+  }
+  .nav {
+    flex-flow: column nowrap;
+    align-items: stretch;
+  }
+  .nav li {
+    flex: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+    flex-grow: 1;
+    text-align: center
+  }
+  .colophon {
+    padding: 1rem;
+  }
+  .about,
+  .contact {
+    flex: 100%;
+  }
+}
