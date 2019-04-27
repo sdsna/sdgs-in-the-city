@@ -174,20 +174,24 @@
 /* Goal Navigation */
 .goal-navigation {
   list-style: none;
-  margin: 1rem;
+  margin: 2rem 1.25rem;
   padding: 0;
   display: flex;
   flex-flow: row wrap;
+  box-shadow: 0 5px 10px 0 rgba(198,225,255,.65);
 }
 .goal-navigation li {
   flex: 33%;
   transition: all ease-in-out .25s;
 }
-.goal-navigation li:hover {
+.goal-navigation li:hover,
+.goal-navigation li:focus {
   transform: scale(1.05);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.25);
 }
 .goal-navigation li.no-hover {
   transform: none;
+  box-shadow: none;
 }
 .sdg-logo {
   max-width: 80%;
@@ -274,6 +278,7 @@
 }
 .goal-actions ul li:hover {
   transform: scale(1.05);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.25);
 }
 
 @media only screen and (max-width: 776.25px) {
