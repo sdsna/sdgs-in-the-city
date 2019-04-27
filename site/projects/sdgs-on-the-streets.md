@@ -1,4 +1,20 @@
 ---
 title: SDGs on the Streets
+description: >-
+  The SDSN will join Car Free Earth Day on Saturday, April 27th. Broadway will
+  be closed to automobile traffic from Times Square to Union Square, and will
+  feature art installations, activities, and booths from community
+  organizations.
+
+
+  Our booth will feature a spinning wheel with the 17 SDGs, from which
+  participants will spin for an SDG and receive an invitation to partake in a
+  related personal action. SDSN will collect the social media handles from those
+  who successfully completed their action, and then will enter them into a
+  raffle to win tickets to ICSD and books signed by Jeffrey Sachs. 
+
+
+  The goal is to engage the public in the SDG framework, and inspire a behaviour
+  change with a single action.
 ---
-SDSN will showcase the SDGs in the City Program through a series of community engagement activities that include hosting a booth at Car Free Earth Day on Saturday, April 27 and the Summer Streets Festival that occurs on the first three saturdays of August. The booth will distribute information about the SDGs and the opportunities of the SDGs in the City Program to passers-by and will feature an “SDG wheel” that participants can spin to receive an SDG-related action they can take to advance a particular SDG. Actions will be incentivized by social media exposure and prize drawings.
+
